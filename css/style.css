@@ -170,9 +170,8 @@ img {
   grid-row: 1 / span 2;
 }
 /* Cloud */
-.cloud,
-.grid {
-  grid-template-columns: 4fr, 3fr;
+.host.grid {
+grid-template-columns: 4fr, 3fr;
 }
 /* Sponsors */
 .sponsors .flex {
@@ -201,29 +200,41 @@ img {
 
 /* KeyNotes & Speakers */
 
-.speakers .flex {
-  flex-wrap: wrap;
-
-}
-
-.speakers .card {
   
-  text-align: center;
-  margin: 18px 10px 40px;
-  transition: transform 0.2s ease-in;
-  overflow: hidden;
+.slider{
+  width:55%;
+  height:fit-content; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  
+
+}
+.swiper{
+  width: 50%;
+  height: 10%; ;
+  background:#fff;
+}
+
+.swiper-slide img{
+  width: 100%;
+  object-fit:cover;
  
-}
 
-.speakers.card h4 {
-  font-size: 20px;
-  margin-bottom: 10px;
- ;
 }
+.swiper.swiper-button-prev,.swiper.swiper-button-next{
+  color: var(--secondary-color);
 
-.speakers .card:hover {
-  transform: translateY(-15px);
+
 }
+.swiper-slide h4{
+  background-color: #fff;
+justify-content: center;
+}
+      
+
 /* Footer*/
 .footer.social a {
   margin: 0 10px;
