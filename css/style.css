@@ -111,6 +111,7 @@ img {
   -ms-transform: skewY(-3deg);
 }
 /* Stats */
+
 .stats {
   padding-top: 100px;
 }
@@ -161,6 +162,26 @@ img {
   }
 }
 /* Cli */
+.cli h4 {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -255deg,
+    #f50707 0%,
+    /* #7a1010 29%, */ rgb(0, 183, 199),
+    /* #ff1361 67%, */ #fffb00 100%,
+    rgba(22, 202, 55, 0.138) 50%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 4s linear infinite;
+  font-size: 30px;
+}
 .cli.grid {
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(2, 1fr);
@@ -171,27 +192,23 @@ img {
 }
 /* Cloud */
 .host.grid {
-grid-template-columns: 4fr, 3fr;
+  grid-template-columns: 4fr, 3fr;
 }
 /* Sponsors */
 .sponsors .flex {
   flex-wrap: wrap;
-
 }
 
 .sponsors .card {
-  
   text-align: center;
   margin: 18px 10px 40px;
   transition: transform 0.2s ease-in;
   overflow: hidden;
- 
 }
 
 .sponsors.card h4 {
   font-size: 20px;
   margin-bottom: 10px;
- ;
 }
 
 .sponsors .card:hover {
@@ -200,40 +217,33 @@ grid-template-columns: 4fr, 3fr;
 
 /* KeyNotes & Speakers */
 
-  
-.slider{
-  width:55%;
-  height:fit-content; 
+.slider {
+  width: 55%;
+  height: fit-content;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-left: auto !important;
   margin-right: auto !important;
-  
-
 }
-.swiper{
+.swiper {
   width: 50%;
-  height: 10%; ;
-  background:#fff;
+  height: 10%;
+  background: #fff;
 }
 
-.swiper-slide img{
+.swiper-slide img {
   width: 100%;
-  object-fit:cover;
- 
-
+  object-fit: cover;
 }
-.swiper.swiper-button-prev,.swiper.swiper-button-next{
+.swiper.swiper-button-prev,
+.swiper.swiper-button-next {
   color: var(--secondary-color);
-
-
 }
-.swiper-slide h4{
+.swiper-slide h4 {
   background-color: #fff;
-justify-content: center;
+  justify-content: center;
 }
-      
 
 /* Footer*/
 .footer.social a {
