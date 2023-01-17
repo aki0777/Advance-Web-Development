@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accomodation</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/utilities.css" />
+    <style>
+      tr:nth-child(even) {
+        background-color: var(--primary-color);
+      }
+      tr:nth-child(odd) {
+        background-color: rgb(0, 88, 138);
+      }
+
+      .cli table {
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navbar -->
+    <div class="navbar">
+      <div class="container flex">
+        <a target="_blank" href="https://udm.ac.mu/"
+          ><img src="images/menuLogo.png" alt="" style="width: 150px"
+        /></a>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li>
+              <div class="dropdown">
+                <div>Past Conferance</div>
+                <div class="dropdown-content">
+                  <a
+                    target="_blank"
+                    href="https://udm.ac.mu/srrnet-conf/2022/Pages/Home/"
+                    >SSRNet 2022</a
+                  >
+                  <a target="_blank" href="https://icacie.com/2022/"
+                    >ICACIE 2022</a
+                  >
+                  <a target="_blank" href="https://icacie.com/2021/"
+                    >ICACIE 2021</a
+                  >
+                </div>
+              </div>
+            </li>
+            <li><a href="sponsors.html">Sponsors</a></li>
+            <li><a href="speakers.html">Speakers</a></li>
+            <li><a href="commitee.html">Commitee</a></li>
+            <li><a class="active" href="venue.html">Venue</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="Callforpapers.html">Call for Papers</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li>
+              <a href="login.html"><i class="fas fa-user-circle"></i></a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+    <section class="bg-primary my-1 py-2">
+      <div class="container grid">
+        <video autoplay loop muted>
+          <source
+            src="images/Mauritius Launches New Tourism Promotion Campaign.mp4"
+            type="video/mp4"
+          />
+        </video>
+        <div class="text-center">
+          <a target="_blank" href="https://udm.ac.mu/"
+            ><img src="images/mainLogo.png" alt="" style="width: 10%" />
+          </a>
+          <h2 class="lg">STAY IN</h2>
+        </div>
+      </div>
+    </section>
+    <section class="stats">
+      <div class="container">
+        <div class="grid grid-3 text-center my4">
+          <div>
+            <a class="active" href="venue.html"
+              ><i class="fa-solid fa-map-location-dot fa-3x"></i>
+              <p class="text-secondary">Venue</p></a
+            >
+          </div>
+          <div>
+            <a href="Travel.html">
+              <i class="fa-solid fa-plane-departure fa-3x"></i>
+              <p class="text-secondary">Travel</p></a
+            >
+          </div>
+          <div>
+            <a href="Accomodation.html"
+              ><i class="fa-solid fa-hotel fa-3x"></i>
+              <p class="text-secondary">Accomodation</p></a
+            >
+          </div>
+          <div>
+            <a href="sightseeing.html"
+              ><i class="fa-solid fa-glasses fa-3x"></i>
+
+              <p class="active text-secondary">sight seeing</p></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="cli">
+      <div class="container">
+        <h1>Accomodation</h1>
+        <hr />
+        <p class="md2">
+          The following Hotels are available for accommodation near the venue:
+        </p>
+        <table class="payment">
+          <th>
+            <tr>
+              <td>Mauricia Beachcomber Resort & Spa</td>
+              <td>0.7 mile from venue</td>
+            </tr>
+          </th>
+          <tr>
+            <td>Ocean V Hotel</td>
+            <td>0.4miles from venue</td>
+          </tr>
+          <tr>
+            <td>Royal Plam Beachcomber</td>
+            <td>0.5 mile from venue</td>
+          </tr>
+          <tr>
+            <td>Grand Bay Suites</td>
+            <td>0.3 mile from venue</td>
+          </tr>
+          <tr>
+            <td>20Degree Sud</td>
+            <td>0.8 mile from venue</td>
+          </tr>
+          <tr>
+            <td>Pereybere Hotel & Spa</td>
+            <td>0.7 mile from venue</td>
+          </tr>
+          <tr>
+            <td>Veranda Hotel Resort & Spa</td>
+            <td>0.7 mile from venue</td>
+          </tr>
+          <tr>
+            <td>Bay Stone Boutique Hotel & Spa</td>
+            <td>0.9 mile from venue</td>
+          </tr>
+          <tr>
+            <td>Casa Florida Hotel</td>
+            <td>1.0 mile from venue</td>
+          </tr>
+          <tr>
+            <td>Hibiscus Beach Resort & Spa</td>
+            <td>0.6 mile from venue</td>
+          </tr>
+        </table>
+        <p class="md2">
+          Other Hotels are available on
+          <a
+            target="_blank"
+            class="text"
+            href="https://www.tripadvisor.com/HotelsNear-g488103-d302263-LUX_Grand_Baie_Resort_Residences-Grand_Baie.html"
+            >Tripadvisor</a
+          >
+          or rent on
+          <a
+            target="_blank"
+            class="text"
+            href="https://www.airbnb.com/s/Mauritius/homes?adults=1&place_id=ChIJyXRE-U1QfCERMdBrEcLZA0I&refinement_paths%5B%5D=%2Fhomes&checkin=2023-08-24&checkout=2023-08-26&tab_id=home_tab&query=Mauritius&flexible_trip_lengths%5B%5D=one_week&price_filter_input_type=0&price_filter_num_nights=2&ne_lat=-19.948694971444635&ne_lng=57.71986097961019&sw_lat=-20.18636195542329&sw_lng=57.47541517882894&zoom=12&search_by_map=true&search_type=user_map_move"
+            >Airbnb.</a
+          >
+        </p>
+      </div>
+
+      <p class="md2 text text-center">
+        Note* Special Promo are available at the Lux* Grand Baie only and
+        transport facilities(north only) will be provided for those staying in
+        other locations
+      </p>
+    </section>
+    <!-- Footer -->
+    <section>
+      <footer class="footer bg-dark py-5">
+        <div class="container grid grid-3">
+          <div>
+            <a target="_blank" href="https://udm.ac.mu/"
+              ><img src="images/menuLogo.png" alt="" style="width: 150px"
+            /></a>
+
+            <h1>Université Des Mascareignes</h1>
+            <p>All Rights Reserved &reg;</p>
+            <p>Copyright &copy; 2023</p>
+          </div>
+
+          <ul>
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="sponsors.html">Sponsors</a></li>
+            <li><a href="speakers.html">Speakers</a></li>
+            <li><a href="commitee.html">Commitee</a></li>
+            <li><a href="venue.html">Venue</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="Callforpapers.html">Call For Papers </a></li>
+            <li><a href="contact.html">Contact Us </a></li>
+            <li>
+              <a
+                target="_blank"
+                href="https://www.google.com/maps/dir/-20.4317297,57.6750764/LUX*+Grand+Baie,+MU,+Coastal+Road,+Grand+Baie+30510/@-20.2210955,57.4373712,11z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x217dab1da78e0199:0x8fe7bfe84f5e6684!2m2!1d57.5830143!2d-20.0007578"
+                >Get Direction</a
+              >
+            </li>
+          </ul>
+          <!-- Social -->
+          <div class="social">
+            <a target="_blank" href="https://twitter.com/udmmauritius?lang=en"
+              ><i class="fab fa-twitter fa-2x"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.facebook.com/UniversiteDesMascareignes/"
+              ><i class="fab fa-facebook fa-2x"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.instagram.com/universite.des.mascareignes/"
+              ><i class="fab fa-instagram fa-2x"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.linkedin.com/school/universite-des-mascareignes/"
+              ><i class="fab fa-linkedin fa-2x"></i
+            ></a>
+            <a
+              target="_blank"
+              href="https://www.youtube.com/channel/UCzJ2anmDLMwPb36bzIiHukA"
+              ><i class="fab fa-youtube fa-2x"></i
+            ></a>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
