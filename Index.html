@@ -22,7 +22,7 @@
   </head>
   <body>
     <!-- Navbar -->
-    <div class="navbar">
+    <div class="navbar" id="mynav">
       <div class="container flex">
         <a target="_blank" href="https://udm.ac.mu/"
           ><img src="images/menuLogo.png" alt="" style="width: 150px"
@@ -59,6 +59,9 @@
             <li>
               <a href="login.html"><i class="fas fa-user-circle"></i></a>
             </li>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
           </ul>
         </nav>
       </div>
@@ -469,6 +472,15 @@
           document.getElementById("demo").innerHTML = "EXPIRED";
         }
       }, 1000);
+
+      function myFunction() {
+  var x = document.getElementById("mynav");
+  if (x.className === "navbar") {
+    x.className += " responsive";
+  } else {
+    x.className = "navbar";
+  }
+}
     </script>
   </body>
 </html>
