@@ -7,3 +7,4 @@ Module: Advance web development
 Assignment 1
 Institution: Uiversité des Mascareignes
 Link to access github: https://github.com/aki0777/Advance-Web-Development.git
+Link to website: https://aki0777.github.io/Advance-Web-Development/index.html
